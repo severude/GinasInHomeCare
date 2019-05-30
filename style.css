@@ -1,0 +1,163 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0;
+    color: #333;
+    background-color: white;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.logo {
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    color: lightsalmon;
+    float: left;
+    width: 50%;
+    font-size: 1.75em;
+}
+.logo .line1 {
+    display: block;
+    margin-top: 1.5em;
+    margin-left: 10%;
+}
+.logo .line2 {
+    display: block;
+    margin-left: 20%;
+}
+.logo .line3 {
+    display: block;
+    margin-left: 30%;
+}
+img {
+    width: 40%;
+    border-radius: 50%;
+}
+.intro {
+    margin-left: 52.5%;
+    font-size: 1em;
+}
+.main {
+    margin: .75em 5%;
+    font-size: 1.125em;
+}
+.center {
+    text-align: center;
+}
+.services {
+    columns: 1;
+}
+.locations {
+    columns: 2;
+}
+.contact {
+    margin: 1em 0;
+    width: 49%;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+.contact a {
+    display: block;
+    text-decoration: none;
+    padding: 1em 0;
+    color: white;
+    background-color: lightsalmon;
+    text-align: center;
+    border: .25em solid #e6b19c;
+    border-radius: .5em;
+    font-size: 1em;    
+}
+.contact a:hover {
+    color: lightsalmon;
+    background-color: white;
+}
+
+/* Media query for paragraph margins and fond size */
+/* 768px Tablet */
+@media (min-width: 48em) {
+    .logo {
+        font-size: 3em;
+    }
+    .main {
+        margin: .75em 5%;
+    }
+    img {
+        width: 35%;
+    }
+    .services {
+        columns: 2;
+    }
+    .contact {
+        margin-left: 10%;
+        width: 35%;
+    }
+    .contact a {
+        font-size: 1.5em;
+    }
+}
+/* 1024px Laptop */
+@media (min-width: 64em) {
+    .logo .line1 {
+        margin-top: 1.5em;
+        margin-left: 30%;
+    }
+    .logo .line2 {
+        margin-left: 40%;
+    }
+    .logo .line3 {
+        margin-left: 50%;
+    }
+    .main {
+        margin: .75em 14%;
+    }
+    img {
+        width: 30%;
+    }
+}
+/* 1216px Desktop */
+@media (min-width: 76em) {
+    .logo .line1 {
+        margin-left: 40%;
+    }
+    .logo .line2 {
+        margin-left: 50%;
+    }
+    .logo .line3 {
+        margin-left: 60%;
+    }
+    .main {
+        margin: .75em 18%;
+    }
+    img {
+        width: 30%;
+    }
+}
+/* 1440px Large */
+@media (min-width: 90em) {
+    .logo {
+        font-size: 4em;
+    }
+    .logo .line1 {
+        margin-top: 1.25em;
+        margin-left: 45%;
+    }
+    .logo .line2 {
+        margin-left: 55%;
+    }
+    .logo .line3 {
+        margin-left: 65%;
+    }
+    .main {
+        margin: .75em 22%;
+    }
+    img {
+        width: 20%;
+    }
+}
